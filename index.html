@@ -1,0 +1,159 @@
+<!-- Instant Live Search Bar -->
+<div class="festival-search-wrapper" style="max-width: 650px; margin: 24px auto; text-align: center;">
+  <input type="text" id="festivalSearchInput" onkeyup="filterFestivals()" placeholder="🔍 Search any festival (e.g. Chhath, Yomari, Lhosar, Maghe, होली)..." style="width: 100%; padding: 14px 18px; font-size: 1rem; border-radius: 30px; border: 1px solid #d4af37; background: #1a2332; color: #fff; outline: none;">
+</div>
+
+<!-- 12-Month Calendar Grid -->
+<div class="month-calendar-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; margin: 30px 0;">
+  
+  <div class="month-card" data-month="Baishakh" style="background: #141b26; border: 1px solid #2a374a; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 01 • MID-APR / MAY</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">१. बैशाख (Baishakh)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#naya-barsha" style="color:#f1c40f; text-decoration:none;">Naya Barsha 2084</a></li>
+      <li>• <a href="#bisket-jatra" style="color:#cbd5e1; text-decoration:none;">Bisket Jatra</a></li>
+      <li>• <a href="#mata-tirtha" style="color:#cbd5e1; text-decoration:none;">Mata Tirtha Aunsi</a></li>
+      <li>• <a href="#buddha-jayanti" style="color:#cbd5e1; text-decoration:none;">Buddha Jayanti</a></li>
+      <li>• <a href="#ubhauli" style="color:#cbd5e1; text-decoration:none;">Ubhauli Parva</a></li>
+    </ul>
+  </div>
+
+  <div class="month-card" data-month="Jestha" style="background: #141b26; border: 1px solid #2a374a; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 02 • MID-MAY / JUN</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">२. जेठ (Jestha)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#sithi-nakha" style="color:#cbd5e1; text-decoration:none;">Sithi Nakha</a></li>
+      <li>• <a href="#ganga-dussehra" style="color:#cbd5e1; text-decoration:none;">Ganga Dussehra</a></li>
+    </ul>
+  </div>
+
+  <div class="month-card" data-month="Asar" style="background: #141b26; border: 1px solid #2a374a; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 03 • MID-JUN / JUL</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">३. असार (Asar)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#ropain-diwas" style="color:#cbd5e1; text-decoration:none;">Ropain Diwas (असार १५)</a></li>
+      <li>• <a href="#guru-purnima" style="color:#cbd5e1; text-decoration:none;">Guru Purnima</a></li>
+    </ul>
+  </div>
+
+  <div class="month-card" data-month="Shrawan" style="background: #141b26; border: 1px solid #2a374a; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 04 • MID-JUL / AUG</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">४. साउन (Shrawan)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#saune-sankranti" style="color:#cbd5e1; text-decoration:none;">Saune Sankranti</a></li>
+      <li>• <a href="#gathamugah" style="color:#cbd5e1; text-decoration:none;">Gathamugah Chahre</a></li>
+      <li>• <a href="#gunla" style="color:#cbd5e1; text-decoration:none;">Gunla Parva</a></li>
+      <li>• <a href="#nag-panchami" style="color:#cbd5e1; text-decoration:none;">Nag Panchami</a></li>
+    </ul>
+  </div>
+
+  <div class="month-card" data-month="Bhadra" style="background: #141b26; border: 1px solid #2a374a; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 05 • MID-AUG / SEP</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">५. भदौ (Bhadra)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#janai-purnima" style="color:#cbd5e1; text-decoration:none;">Janai Purnima / Rakhi</a></li>
+      <li>• <a href="#gai-jatra" style="color:#cbd5e1; text-decoration:none;">Gai Jatra (Sa Paru)</a></li>
+      <li>• <a href="#krishna-janmashtami" style="color:#cbd5e1; text-decoration:none;">Krishna Janmashtami</a></li>
+      <li>• <a href="#gaura-parva" style="color:#cbd5e1; text-decoration:none;">Gaura Parva</a></li>
+      <li>• <a href="#kushe-aunsi" style="color:#cbd5e1; text-decoration:none;">Father's Day (कुशे औंसी)</a></li>
+      <li>• <a href="#haritalika-teej" style="color:#cbd5e1; text-decoration:none;">Haritalika Teej</a></li>
+      <li>• <a href="#rishi-panchami" style="color:#cbd5e1; text-decoration:none;">Rishi Panchami</a></li>
+    </ul>
+  </div>
+
+  <div class="month-card" data-month="Ashwin" style="background: #141b26; border: 1px solid #2a374a; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 06 • MID-SEP / OCT</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">६. असोज (Ashwin)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#indra-jatra" style="color:#cbd5e1; text-decoration:none;">Indra Jatra (येँया:)</a></li>
+      <li>• <a href="#ghatasthapana" style="color:#cbd5e1; text-decoration:none;">Ghatasthapana</a></li>
+      <li>• <a href="#fulpati" style="color:#cbd5e1; text-decoration:none;">Fulpati &amp; Maha Ashtami</a></li>
+      <li>• <a href="#vijaya-dashami" style="color:#f1c40f; text-decoration:none;">Vijaya Dashami (दशैँ)</a></li>
+    </ul>
+  </div>
+
+  <div class="month-card" data-month="Kartik" style="background: #1e293b; border: 2px solid #d4af37; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 07 • ACTIVE SEASON</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">७. कात्तिक (Kartik)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#kag-tihar" style="color:#cbd5e1; text-decoration:none;">Kag Tihar &amp; Dhanteras</a></li>
+      <li>• <a href="#kukur-tihar" style="color:#cbd5e1; text-decoration:none;">Kukur Tihar</a></li>
+      <li>• <a href="#laxmi-puja" style="color:#cbd5e1; text-decoration:none;">Laxmi Puja (दीपावली)</a></li>
+      <li>• <a href="#govardhan-puja" style="color:#cbd5e1; text-decoration:none;">Govardhan Puja</a></li>
+      <li>• <a href="#mha-puja" style="color:#cbd5e1; text-decoration:none;">Mha Puja (म्हपूजा)</a></li>
+      <li>• <a href="#bhai-tika" style="color:#cbd5e1; text-decoration:none;">Bhai Tika</a></li>
+      <li>• <a href="#kija-puja" style="color:#cbd5e1; text-decoration:none;">Kija Puja (किजा पूजा)</a></li>
+      <li>• <a href="#chhath-parva" style="color:#f1c40f; font-weight:700; text-decoration:none;">Chhath Parva (छठ पर्व) 🔥</a></li>
+    </ul>
+  </div>
+
+  <div class="month-card" data-month="Mangsir" style="background: #141b26; border: 1px solid #2a374a; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 08 • MID-NOV / DEC</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">८. मंसिर (Mangsir)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#bala-chaturdashi" style="color:#cbd5e1; text-decoration:none;">Bala Chaturdashi (शतबीज)</a></li>
+      <li>• <a href="#tulsi-vivah" style="color:#cbd5e1; text-decoration:none;">Tulsi Vivah</a></li>
+      <li>• <a href="#vivaha-panchami" style="color:#cbd5e1; text-decoration:none;">Vivaha Panchami</a></li>
+    </ul>
+  </div>
+
+  <div class="month-card" data-month="Poush" style="background: #141b26; border: 1px solid #2a374a; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 09 • MID-DEC / JAN</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">९. पुष (Poush)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#yomari-punhi" style="color:#f1c40f; text-decoration:none;">Yomari Punhi (योमरी पुन्ही)</a></li>
+      <li>• <a href="#udhauli" style="color:#cbd5e1; text-decoration:none;">Udhauli Parva (उँधौली)</a></li>
+      <li>• <a href="#tamu-lhosar" style="color:#f1c40f; text-decoration:none;">Tamu Lhosar (तमु ल्होसार)</a></li>
+      <li>• <a href="#tol-lhosar" style="color:#cbd5e1; text-decoration:none;">Tol Lhosar (तोल ल्होसार)</a></li>
+    </ul>
+  </div>
+
+  <div class="month-card" data-month="Magh" style="background: #141b26; border: 1px solid #2a374a; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 10 • MID-JAN / FEB</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">१०. माघ (Magh)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#maghe-sankranti" style="color:#f1c40f; text-decoration:none;">Maghe Sankranti (घ्यु चाकु)</a></li>
+      <li>• <a href="#maghi" style="color:#cbd5e1; text-decoration:none;">Maghi (थारु नयाँ वर्ष)</a></li>
+      <li>• <a href="#sonam-lhosar" style="color:#cbd5e1; text-decoration:none;">Sonam Lhosar (सोनाम ल्होसार)</a></li>
+      <li>• <a href="#saraswati-puja" style="color:#cbd5e1; text-decoration:none;">Saraswati Puja (वसन्तपञ्चमी)</a></li>
+    </ul>
+  </div>
+
+  <div class="month-card" data-month="Falgun" style="background: #141b26; border: 1px solid #2a374a; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 11 • MID-FEB / MAR</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">११. फागुन (Falgun)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#maha-shivaratri" style="color:#f1c40f; text-decoration:none;">Maha Shivaratri (महाशिवरात्रि)</a></li>
+      <li>• <a href="#gyalpo-lhosar" style="color:#cbd5e1; text-decoration:none;">Gyalpo Lhosar (ग्याल्पो ल्होसार)</a></li>
+    </ul>
+  </div>
+
+  <div class="month-card" data-month="Chaitra" style="background: #141b26; border: 1px solid #2a374a; border-radius: 10px; padding: 18px;">
+    <div style="font-size: 0.8rem; color: #d4af37; font-weight: 700;">MONTH 12 • MID-MAR / APR</div>
+    <h3 style="margin: 4px 0 10px; color: #fff;">१२. चैत (Chaitra)</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.88rem; line-height: 1.6; color: #cbd5e1;">
+      <li>• <a href="#fagu-purnima" style="color:#f1c40f; text-decoration:none;">Holi - Hilly (पहाडी होली)</a></li>
+      <li>• <a href="#terai-holi" style="color:#cbd5e1; text-decoration:none;">Holi - Terai (तराई होली)</a></li>
+      <li>• <a href="#ghode-jatra" style="color:#cbd5e1; text-decoration:none;">Ghode Jatra (घोडेजात्रा)</a></li>
+      <li>• <a href="#chaite-dashain" style="color:#cbd5e1; text-decoration:none;">Chaite Dashain (चैते दशैँ)</a></li>
+      <li>• <a href="#ram-navami" style="color:#cbd5e1; text-decoration:none;">Ram Navami (श्री राम नवमी)</a></li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- Client-Side Search Script (Lightweight & Instant) -->
+<script>
+function filterFestivals() {
+  const query = document.getElementById('festivalSearchInput').value.toLowerCase();
+  const cards = document.querySelectorAll('.month-card');
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    if (text.includes(query)) {
+      card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
